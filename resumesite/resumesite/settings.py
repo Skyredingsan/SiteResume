@@ -25,7 +25,9 @@ SECRET_KEY = 'django-insecure-f0k=e=kh9x12nw1z44q43^rq6$g2%vo^#jq422)^bns)_lm!nd
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    '.vercel.app'
+]
 
 
 # Application definition
@@ -74,12 +76,7 @@ WSGI_APPLICATION = 'resumesite.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/4.1/ref/settings/#databases
 
-DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
-    }
-}
+DATABASES = {}
 
 
 # Password validation
