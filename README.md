@@ -6,4 +6,4 @@
 
 1. Установите python 3.9+
 2. Установите библиотеки из requirements.txt
-3. Запустить командой python run.py
+3. Запустить командой python manage.py runserver
